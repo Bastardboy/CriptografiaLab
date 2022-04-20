@@ -4,7 +4,7 @@
 
 En primer lugar debe hacerse un git clone
 ```
-https://github.com/Bastardboy/CriptografiaLab.git
+git clone https://github.com/Bastardboy/CriptografiaLab.git
 ```
 
 A continuación, se debe mover a las carpetas que desea ejecutar (Para el sitio que desee probar)
