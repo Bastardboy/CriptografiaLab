@@ -1,16 +1,21 @@
 # Laboratorio Password Criptografia
 
+## Uso
 
-## Installation
-
-
-## Usage
-
-```python
-
+En primer lugar debe hacerse un git clone
+```
+https://github.com/Bastardboy/CriptografiaLab.git
 ```
 
-## Contributing
+A continuación, se debe mover a las carpetas que desea ejecutar (Para el sitio que desee probar)
+```
+cd Chile
 
+cd España
+```
 
-## License
+Por último, se han de ejecutar los scripts
+
+```
+python3 nombre_script.py
+```
