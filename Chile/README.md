@@ -3,8 +3,8 @@
 
 ## Registro
 
-![Formulario](https://imgur.com/r92Q9In)
-![Registrado](https://imgur.com/PKbGMxV)
+![Formulario](https://i.imgur.com/r92Q9In.png)
+![Registrado](https://i.imgur.com/PKbGMxV.png)
 
 ## Login
 -> Imagenes login
