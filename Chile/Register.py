@@ -34,10 +34,11 @@ if __name__ == '__main__':
     #provincia = driver.find_element_by_name('Provincia')
     email = driver.find_element_by_name('email')
     email.clear()
-    email.send_keys('kexekeb899@bunlets.com')
+    email.send_keys('dawiro7371@dmosoft.com')
     pwd = driver.find_element_by_name('password')
     pwd.clear()
     pwd.send_keys('muyseguro')
+    time.sleep(10)
     driver.find_element_by_xpath('//*[@id="customer-form"]/footer/button').click()
     time.sleep(6)
     
