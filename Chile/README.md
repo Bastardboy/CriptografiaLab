@@ -6,11 +6,11 @@
 ![Formulario](https://imgur.com/r92Q9In.png)
 ![Registrado](https://imgur.com/PKbGMxV.png)
 
-## Login
+## Inicio de Sesion
 ![Inicio de Sesion](https://i.imgur.com/PMaerzr.png)
 
-## Recovery Password
+## Solicitud Cambio Contraseña
 ![Solicitud Cambio Contraseña](https://i.imgur.com/NCbeCVX.png)
 
-## Change Password
-![Solicitud Cambio Contraseña](https://i.imgur.com/1JKaFtW.png)
+## Cambio de Contraseña
+![Cambio de Contraseña](https://i.imgur.com/1JKaFtW.png)
