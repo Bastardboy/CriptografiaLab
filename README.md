@@ -13,9 +13,9 @@ cd CriptografiaLab
 ```
 Una vez aqui dentro se presentan tres carpetas (Chile, España, FuerzaBrutaII). Dentro de cada una están los códigos solicitados para la resolución de los hitos II, III y IV. 
 
-### El código que se encuentra en FuerzaBrutaII, es el responsable de probar las credenciales encontradas mediante el dork. 
-### Los códigos que auditan la implementación de los sistemas de creación tienen los nombres respectivos a que acción efectuan en las carpetas para los sitios respectivos. (Chile y España)
-### Por último, dentro de las anteriormente mencionadas, está el código FuerzaBruta, que realiza la acción correspondiente para estudiar el caso del hito IV.
+El código que se encuentra en FuerzaBrutaII, es el responsable de probar las credenciales encontradas mediante el dork. 
+Los códigos que auditan la implementación de los sistemas de creación tienen los nombres respectivos a que acción efectuan en las carpetas para los sitios respectivos. (Chile y España)
+Por último, dentro de las anteriormente mencionadas, está el código FuerzaBruta, que realiza la acción correspondiente para estudiar el caso del hito IV.
 
 ## Puede proceder a moverse a cada una de estas.
 
