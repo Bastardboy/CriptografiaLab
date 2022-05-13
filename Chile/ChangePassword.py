@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 #/usr/local/bin/chromedriver para ejecutarlo
 driver_path = '/usr/local/bin/chromedriver'
 
-def cambio():
+if __name__ == '__main__': 
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
     options.add_argument('--disable-extensions')
@@ -47,7 +47,3 @@ def cambio():
     driver.find_element_by_xpath('//*[@id="customer-form"]/footer/button').click()
     time.sleep(5)
     driver.quit()
-
-if __name__ == "__main__":
-    #Variables
-    cambio()
