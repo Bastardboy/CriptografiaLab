@@ -31,7 +31,7 @@ if __name__ == "__main__":
         email = driver.find_element_by_name('email')
         email.clear()
         time.sleep(1)
-        email.send_keys('rofol18036@hbehs.com')
+        email.send_keys('tegowo4080@dufeed.com')
         pwd = driver.find_element_by_name('password')
         pwd.clear()
         newText = ''.join(random.choice(cadena) for j in range(random.randrange(5,70)))

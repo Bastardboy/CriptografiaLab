@@ -7,7 +7,7 @@ from selenium.webdriver.common.alert import Alert
 #/usr/local/bin/chromedriver para ejecutarlo
 driver_path = '/usr/local/bin/chromedriver'
 
-def login():
+if __name__ == '__main__': 
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
     options.add_argument('--disable-extensions')
@@ -27,7 +27,7 @@ def login():
     mail = driver.find_element_by_name('email')
     mail.clear()
     time.sleep(1)
-    mail.send_keys('rofol18036@hbehs.com')
+    mail.send_keys('tegowo4080@dufeed.com')
     pwd = driver.find_element_by_name('password')
     pwd.clear()
     pwd.send_keys('muyseguro')
@@ -35,6 +35,6 @@ def login():
     time.sleep(5)
     driver.find_element_by_xpath('//*[@id="myModalRegistrate"]/div/div/div[3]/div/div[3]/button').click()
     time.sleep(5)
-
-if __name__ == "__main__":
-    login()
+    driver.switch_to.alert.accept()
+    time.sleep(5)
+    driver.quit()

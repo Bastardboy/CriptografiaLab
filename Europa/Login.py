@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 #/usr/local/bin/chromedriver para ejecutarlo
 driver_path = '/usr/local/bin/chromedriver'
 
-def login():
+if __name__ == '__main__': 
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
     options.add_argument('--disable-extensions')
@@ -24,13 +24,10 @@ def login():
     mail = driver.find_element_by_name('email')
     mail.clear()
     time.sleep(1)
-    mail.send_keys('rofol18036@hbehs.com')
+    mail.send_keys('tegowo4080@dufeed.com')
     pwd = driver.find_element_by_name('password')
     pwd.clear()
     pwd.send_keys('muyseguro')
     driver.find_element_by_xpath('//*[@id="frmLogin"]/div[3]/div[1]/input').click()
     time.sleep(5)
     driver.quit()
-
-if __name__ == "__main__":
-    login()

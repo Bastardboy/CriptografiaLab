@@ -24,7 +24,7 @@ if __name__ == '__main__':
     mail = driver.find_element_by_name('email')
     mail.clear()
     time.sleep(1)
-    mail.send_keys('dawiro7371@dmosoft.com')
+    mail.send_keys('tegowo4080@dufeed.com')
     pwd = driver.find_element_by_name('password')
     pwd.clear()
     pwd.send_keys('muyseguro')
